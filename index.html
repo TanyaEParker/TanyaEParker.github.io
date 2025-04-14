@@ -1,7 +1,29 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1> Hello World</h1>
-<p> hosted on Github!</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/tlogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanya Parker Softgames Task</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/main.css">
+
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+    <div id = "MainMenu" class="background">
+      <div class="menu">
+        <h1>Menu</h1>
+        <button id ="AoC" class = "menuButton">Ace of Shadows</button>
+        <button id ="MW" class = "menuButton">Magic Words</button>
+        <button id ="PF" class = "menuButton">Pheonix Flame</button>
+      </div>
+    </div>
+    <div id="MWDiaglouge" class="mwdialogue" style="display: none;"><span id="MWDialogueHolder"></span></div>
+    <script type="module" src="./src/index.ts"></script>
+  </body>
 </html>
